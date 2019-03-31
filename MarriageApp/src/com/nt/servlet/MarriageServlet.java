@@ -17,6 +17,7 @@ public class MarriageServlet extends HttpServlet {
 		String name=null, gender=null; 
 		int age=0;
 		boolean status=false;
+		int count;
 		
 		//general settings
 		pw=res.getWriter();
